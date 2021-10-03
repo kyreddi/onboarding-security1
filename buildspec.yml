@@ -31,5 +31,5 @@ phases:
       - docker push $REPOSITORY_URI:$IMAGE_TAG
 artifacts:
   files:
-    - target/security.jar
+    - target/jabanksecurity.jar
   discard-paths: yes
